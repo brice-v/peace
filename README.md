@@ -1,13 +1,15 @@
 # peace
+
 Piece Table in Go
 
 ## Explanation
+
 The piece table is an immutable data structure that allows for the quick and efficient editing of text buffers.
 Because of it's immutable nature it is also efficient when implementing unlimited undo and redo.
 It is also very efficient with memory usage compared to other text buffers.
 For more explanation on how this all works, please see the resources section below.
 
-#### Current Implementation
+### Current Implementation
 
 Currently the piece table is implemented using a doubly-linked list.
 The performance has not been measure but is most likely not great at the moment.
@@ -21,9 +23,8 @@ The performance has not been measure but is most likely not great at the moment.
 - [ ] Measure peformance bottlenecks for what needs to be optimized
 - [ ] Compare against other text buffers
 - [ ] Write Tests for most everything
-- [ ] Test Unicode ability 
+- [ ] Test Unicode ability
 - [ ] more...
-
 
 #### Resources
 
