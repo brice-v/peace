@@ -12,7 +12,7 @@ For more explanation on how this all works, please see the resources section bel
 ### Current Implementation
 
 Currently the piece table is implemented using a doubly-linked list.
-The performance has not been measure but is most likely not great at the moment.
+The performance has not been measured but is most likely not great at the moment.
 
 #### Enhancements/Roadmap/TODO
 
